@@ -16,7 +16,7 @@ import gitHubIcon from "../images/socials/github.svg";
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
-import twitterIcon from "../images/socials/twitter.svg";
+// import hackerRankIcon from "../images/socials/hackerRank.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
 
 /**
@@ -36,7 +36,7 @@ const Footer = (props) => {
     medium,
     name,
     primaryColor,
-    twitter,
+    // hackerRank,
     youTube,
   } = props;
 
@@ -98,11 +98,11 @@ const Footer = (props) => {
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
         )}
-        {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter" className="socialIcon" />
+        {/* {hacker && (
+          <a href={`https://twitter.com/${hackerRank}`} target="_blank" rel="noopener noreferrer">
+            <img src={hackerRankIcon} alt="Twitter" className="socialIcon" />
           </a>
-        )}
+        )} */}
         {youTube && (
           <a
             href={`https://www.youtube.com/c/${youTube}`}

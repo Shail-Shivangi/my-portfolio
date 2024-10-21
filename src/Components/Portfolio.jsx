@@ -31,27 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: " Todo List",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+      "This project addresses a fundamental need for many users by incorporating local storage implementation, ensuring data persistence across sessions. Built using React.js, it offers a modern and efficient approach to managing state and user interactions, making it an essential tool for developers and users alike..",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Event Management",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "I developed a foundational Event Management project that leverages blockchain technology, featuring a smart contract built with Solidity. By applying core blockchain principles, this project ensures secure, transparent, and decentralized event management solutions.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Gradient Colour",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "Through this project, I gained practical experience in creating gradient color effects and deepened my understanding of commonly used color codes in CSS. The project was built using HTML, CSS, and JavaScript, allowing me to integrate these technologies effectively to enhance visual design and user interface stylings.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Ecommerce website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+      "This project is a collaborative effort to build an e-commerce website. In the future, we plan to enhance the platform by integrating a decentralized database and leveraging blockchain technology to ensure data security and transparency, positioning the project for cutting-edge advancements in the field of e-commerce.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
